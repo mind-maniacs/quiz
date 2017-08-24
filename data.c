@@ -1,4 +1,9 @@
 
+//All Questions and answers are in Switch format
+//one function = one category add more function
+//example() is an example function
+//Follow the example() format
+//Dont need the change 'example' names of function for now
 void example()
 {
 int r,i,c,ia;
@@ -10,6 +15,7 @@ int r,i,c,ia;
     {
         case 1:{
                 c=1;
+                //c is the correct option number
                 printf("What is your Name?\n");
                 printf("1) Cyril\n");
                 printf("2) Not Cyril\n");
@@ -64,3 +70,8 @@ int r,i,c,ia;
     else printf("Wrong\n\n\n\n");
   }
 }
+
+void example1(){}
+void example2(){}
+void example3(){}
+void example4(){}

@@ -22,6 +22,8 @@ void main()
                 break;
         case 4: example3();
                 break;
+        case 5:example4();
+                break;
         default:printf("Invalid Options\n");
     }
 }
