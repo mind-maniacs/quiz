@@ -10,7 +10,9 @@ int r,i,c,ia;
   for(i=0;i<5;i++)
   {
     
-      r=rand()%5+1;
+      r=rand()%10;
+      //r=srand(15);
+      printf("Random no %d",r);
         switch(r)
     {
         case 1:{
@@ -64,10 +66,11 @@ int r,i,c,ia;
                 scanf("%d",&ia);
                 break;
                }
+        default:printf("Invalid rand\n\n\n");
     }
     if(ia==c)
-        printf("Correct\n\n\n\n");
-    else printf("Wrong\n\n\n\n");
+        printf("~~~~~CORRECT :)~~~~~\n\n\n\n");
+    else printf("~~~~~WRONG :(~~~~~\n\n\n\n");
   }
 }
 
