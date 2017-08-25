@@ -12,15 +12,15 @@ void start()
     scanf("     %d",&option);
     switch(option)
     {
-        case 1: example();//Only case1 executes now;
+        case 1: topic0();//Only case1 executes now;
                 break;
-        case 2: example1();
+        case 2: topic1();
                 break;
-        case 3: example2();
+        case 3: topic2();
                 break;
-        case 4: example3();
+        case 4: topic3();
                 break;
-        case 5:example4();
+        case 5: topic4();
                 break;
         default:printf("     Invalid Options\n");
     }
@@ -30,10 +30,11 @@ void start()
 void main()
 {
     char inp,con;
-    void example1();
-    void example2();
-    void exapmle3();
-    void example();
+    void topic0();
+    void topic1();
+    void topic2();
+    void topic3();
+    void topic4();
     system("clear");
     printf("     ~~~~~~A simple Quiz Game~~~~~~~\n\n     ~~~~~Welcome~~~~~\n\n     A C programming Assignment By-\n     Adarsh\n     Akash\n     Cyril\n     Subramaniam\n     Varkey\n\n\n\n\n\n     Start?\n\n     ~~~~~Press Enter to start the game~~~~~");
     scanf("%c",&inp);
