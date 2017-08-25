@@ -6,71 +6,86 @@
 //Dont need the change 'example' names of function for now
 void example()
 {
-int r,i,c,ia;
+    
+int count=0,r,i,c,ia,corr=0,wrong=0;
   for(i=0;i<5;i++)
   {
     
-      r=rand()%10;
-      //r=srand(15);
-      printf("Random no %d",r);
+      r=rand()%6;
+      system("clear");
+      //printf("Random no %d",r);
+      count++;
+      printf("\n\n\n\n     ~~~~~Question %d~~~~~\n",count);
+      printf("     \nCorrect=%d          Wrong=%d\n\n",corr,wrong);
         switch(r)
     {
         case 1:{
                 c=1;
                 //c is the correct option number
-                printf("What is your Name?\n");
-                printf("1) Cyril\n");
-                printf("2) Not Cyril\n");
-                printf("3) What?\n");
-                printf("4) Nobody.\n");
-                scanf("%d",&ia);
+                printf("     What is your Name?\n");
+                printf("     1) Cyril\n");
+                printf("     2) Not Cyril\n");
+                printf("     3) What?\n");
+                printf("     4) Nobody.\n");
+                printf("     Enter correct option number: ");
+                scanf("      %d",&ia);
                 break;
                }
         case 2:{
                 c=2;
-                printf("Where do you live?\n");
-                printf("1) Earth C127\n");
-                printf("2) Earth\n");
-                printf("3) You don't\n");
-                printf("4) bye.\n");
-                scanf("%d",&ia);
+                printf("     Where do you live?\n");
+                printf("     1) Earth C127\n");
+                printf("     2) Earth\n");
+                printf("     3) You don't\n");
+                printf("     4) bye.\n");
+                printf("     Enter correct option number: ");
+                scanf("     %d",&ia);
                 break;
                }
         case 3:{
                 c=4;
-                printf("Wanna Die?\n");
-                printf("1) Yup\n");
-                printf("2) yes\n");
-                printf("3) yeah\n");
-                printf("4) no\n");
-                scanf("%d",&ia);
+                printf("     Wanna Die?\n");
+                printf("     1) Yup\n");
+                printf("     2) yes\n");
+                printf("     3) yeah\n");
+                printf("     4) no\n");
+                printf("     Enter correct option number: ");
+                scanf("     %d",&ia);
                 break;
                }
         case 4:{
                 c=1;
-                printf("Linux>Windows?\n");
-                printf("1) Definetly\n");
-                printf("2) nah\n");
-                printf("3) lol no\n");
-                printf("4) I dont think so\n");
-                scanf("%d",&ia);
+                printf("     Linux>Windows?\n");
+                printf("     1) Definetly\n");
+                printf("     2) nah\n");
+                printf("     3) lol no\n");
+                printf("     4) I dont think so\n");
+                printf("     Enter correct option number: ");
+                scanf("     %d",&ia);
                 break;
                }
         case 5:{
                 c=3;
-                printf("Hitler is:\n");
-                printf("1) Bad\n");
-                printf("2) Awesome\n");
-                printf("3) Evil\n");
-                printf("4) Dictator\n");
-                scanf("%d",&ia);
+                printf("     Hitler is:\n");
+                printf("     1) Bad\n");
+                printf("     2) Awesome\n");
+                printf("     3) Evil\n");
+                printf("     4) Dictator\n");
+                printf("     Enter correct option number: ");
+                scanf("     %d",&ia);
                 break;
                }
-        default:printf("Invalid rand\n\n\n");
+        default:printf("     Invalid Input\n\n\n");
     }
     if(ia==c)
-        printf("~~~~~CORRECT :)~~~~~\n\n\n\n");
-    else printf("~~~~~WRONG :(~~~~~\n\n\n\n");
+     {
+         corr++;
+        printf("     ~CORRECT :)\n\n");
+     }
+    else {
+        wrong++;
+        printf("     ~WRONG :(\n\n");
+         }
   }
 }
 

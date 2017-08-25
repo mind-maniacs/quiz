@@ -1,17 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "data.c"
-void main()
+
+void start()
 {
-    void example1();
-    void example2();
-    void exapmle3();
-    void example();
     int option;
-    printf("Welcome\n\n");
-    printf("Select Category:\n\n");
-    printf("1) Ex1\n2) Ex2\n3) Ex3\n4) Ex4\n");
-    scanf("%d",&option);
+    system("clear");
+    printf("\n\n     ~~~~~Started~~~~~\n\n     Select Category:\n\n");
+    printf("     1) Ex1\n     2) Ex2\n     3) Ex3\n     4) Ex4\n");
+    printf("     Enter Category number: ");
+    scanf("     %d",&option);
     switch(option)
     {
         case 1: example();//Only case1 executes now;
@@ -24,7 +22,22 @@ void main()
                 break;
         case 5:example4();
                 break;
-        default:printf("Invalid Options\n");
+        default:printf("     Invalid Options\n");
     }
 }
 
+
+void main()
+{
+    char inp;
+    system("clear");
+    void example1();
+    void example2();
+    void exapmle3();
+    void example();
+    printf("~~~~~~A simple Quiz Game~~~~~~~\n\n     ~~~~~Welcome~~~~~\n\n     A C programming Assignment By-\n     Adarsh\n     Akash\n     Cyril\n     Subramaniam\n     Varkey\n\n\n\n\n\n     Start?\n\n     ~Press 'y' and Enter to start the game:");
+    scanf("%c",&inp);
+    if(inp=='y')
+    {start();}
+    
+}
