@@ -29,15 +29,14 @@ void start()
 
 void main()
 {
-    char inp;
-    system("clear");
+    char inp,con;
     void example1();
     void example2();
     void exapmle3();
     void example();
-    printf("~~~~~~A simple Quiz Game~~~~~~~\n\n     ~~~~~Welcome~~~~~\n\n     A C programming Assignment By-\n     Adarsh\n     Akash\n     Cyril\n     Subramaniam\n     Varkey\n\n\n\n\n\n     Start?\n\n     ~Press 'y' and Enter to start the game:");
+    system("clear");
+    printf("     ~~~~~~A simple Quiz Game~~~~~~~\n\n     ~~~~~Welcome~~~~~\n\n     A C programming Assignment By-\n     Adarsh\n     Akash\n     Cyril\n     Subramaniam\n     Varkey\n\n\n\n\n\n     Start?\n\n     ~~~~~Press Enter to start the game~~~~~");
     scanf("%c",&inp);
-    if(inp=='y')
-    {start();}
-    
+    system("clear");
+    start();
 }
