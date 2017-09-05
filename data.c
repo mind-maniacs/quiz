@@ -12,7 +12,7 @@ void start();
 void restart(){
     char ent;
     printf("\n\n\n\n     ---Press Enter to RESTART---");
-    scanf("%c*c",&ent);
+    scanf("%c",&ent);
     start();
 }
 void topic0()//Topic name is General Knowledge
