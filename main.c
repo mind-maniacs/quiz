@@ -1,5 +1,6 @@
 /*
 
+
 ~~~~~~~~~~Main file~~~~~~~~~~
 
   This is the main file which contains the Start Menu, Topic Selection Menu and Credits page.
@@ -8,6 +9,7 @@ code can only be compiled on a GCC compiler.
 
 
 */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -41,7 +43,7 @@ void credits() //Credits Menu
 {
     char a;
     printf("\n\n\n\t\t\t\t  ~~~~~~~~~~~Credits~~~~~~~~~~~\n\n\n\n");
-    printf("\t\t\t\t  ~~~~~Database Collection~~~~~\n\t\t\t\t\t   Subramanium\n\t\t\t\t\t     Aadarsh\n\n");
+    printf("\t\t\t\t  ~~~~~Database Collection~~~~~\n\t\t\t\t\t   Subramanium\n\t\t\t\t\t     Adarsh\n\n");
     printf("\t\t\t\t      ~~~~~Programming~~~~~\n\t\t\t\t\t      Cyril\n\t\t\t\t\t      Akash\n\t\t\t\t\t      Varkey\n\n");
     printf("\t\t\t\t     ~~~~~User Interface~~~~~\n\t\t\t\t\t      Akash\n\t\t\t\t\t      Cyril");
     printf("\n\n\n\t\t\t\t ~~~~~Press ENTER to return~~~~~\n");
