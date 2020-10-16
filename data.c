@@ -71,8 +71,8 @@ void topic0() //Topic name is General Knowledge, UI done
                 printf("\t\t\t\t     2) highest railway station\n");
                 printf("\t\t\t\t     3) longest railway station\n");
                 printf("\t\t\t\t     4) None of the above\n");
-                printf("\n\t\t\t\t   Enter correct option number: ");
-                scanf("           %d",&ia);
+                printf("\n\t\t\t\t   Enter correct option : ");
+                scanf("%d",&ia);
                 break;
                }
         case 2:{
@@ -82,7 +82,7 @@ void topic0() //Topic name is General Knowledge, UI done
                 printf("\t\t\t\t     2) Insects\n");
                 printf("\t\t\t\t     3) Decomposition\n");
                 printf("\t\t\t\t     4) The formation of rocks\n");
-                printf("\n\t\t\t\t   Enter correct option number: ");
+                printf("\n\t\t\t\t   Enter correct option: ");
                 scanf("%d",&ia);
                 break;
                }
@@ -93,7 +93,7 @@ void topic0() //Topic name is General Knowledge, UI done
                 printf("\t\t\t\t     2) Africa\n");
                 printf("\t\t\t\t     3) Europe\n");
                 printf("\t\t\t\t     4) Australia\n");
-                printf("\n\t\t\t\t   Enter correct option number: ");
+                printf("\n\t\t\t\t   Enter correct option : ");
                 scanf("%d",&ia);
                 break;
                }
@@ -104,7 +104,7 @@ void topic0() //Topic name is General Knowledge, UI done
                 printf("\t\t\t\t     2) Diphu, Assam\n");
                 printf("\t\t\t\t     3) Kohima, Nagaland\n");
                 printf("\t\t\t\t     4) Gangtok, Sikkim\n");
-                printf("\n\t\t\t\t   Enter correct option number: ");
+                printf("\n\t\t\t\t   Enter correct option : ");
                 scanf("%d",&ia);
                 break;
                }
@@ -115,7 +115,7 @@ void topic0() //Topic name is General Knowledge, UI done
                 printf("\t\t\t\t     2) Physiology or Medicine\n");
                 printf("\t\t\t\t     3) Literature, Peace and Economics\n");
                 printf("\t\t\t\t     4) All of the above\n");
-                printf("\n\t\t\t\t   Enter correct option number: ");
+                printf("\n\t\t\t\t   Enter correct option : ");
                 scanf("%d",&ia);
                 break;
                }
@@ -126,7 +126,7 @@ void topic0() //Topic name is General Knowledge, UI done
                 printf("\t\t\t\t     2) Nazi Party\n");
                 printf("\t\t\t\t     3) Ku-Klux-Klan\n");
                 printf("\t\t\t\t     4) Democratic Party\n");
-                printf("\n\t\t\t\t   Enter correct option number: ");
+                printf("\n\t\t\t\t   Enter correct option : ");
                 scanf("%d",&ia);
                 break;
                }
@@ -137,7 +137,7 @@ void topic0() //Topic name is General Knowledge, UI done
                 printf("\t\t\t\t     2) Film Finance Corporation\n");
                 printf("\t\t\t\t     3) Federation of Football Council\n");
                 printf("\t\t\t\t     4) None of the above\n");
-                printf("\n\t\t\t\t   Enter correct option number: ");
+                printf("\n\t\t\t\t   Enter correct option: ");
                 scanf("%d",&ia);
                 break;
                }
